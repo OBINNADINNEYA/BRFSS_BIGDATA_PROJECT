@@ -76,7 +76,7 @@ import pandas as pd
 # In[6]:
 
 
-df = pd.read_csv("./MMSA2021_Validation_1.csv")
+df = pd.read_csv("./mydata/MMSA2021_train.csv")
 
 
 # In[7]:
