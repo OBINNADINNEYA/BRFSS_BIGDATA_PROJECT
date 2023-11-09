@@ -1,31 +1,31 @@
-# Project Summary
+# Perceived Health Determinants Study
 
-This project delves into the significant influence of behavioral lifestyle choices, socioeconomic status, and access to healthcare on individuals' perceived health. These factors are key determinants that profoundly impact overall health and well-being. The research aims to quantify the extent to which each factor affects an individual's perception of their health, providing essential insights into personalized healthcare interventions and informed public health policies.
+## Overview
 
-## Research Questions
+This research project delves into the profound effects of behavioral lifestyle choices, socioeconomic status, and healthcare access on individuals' perceived health. By examining these core determinants, the study quantifies their impact and provides critical insights for tailoring personalized healthcare interventions and shaping informed public health policies.
 
-The project aims to answer the following research questions:
+## Research Objectives
 
-1. How do dietary habits and nutrition shape an individual's health outcome?
-2. What is the role of socioeconomic status and access to healthcare in predicting health outcomes?
-3. Can lifestyle factors, including smoking and alcohol consumption, predict health risks and outcomes?
-4. How predictable are chronic diseases, such as diabetes and hypertension, through a combined analysis of lifestyle factors and genetic predisposition?
-5. What is the significant contribution of mental health factors, such as stress, anxiety, and depression, to health outcomes, and what pathways influence overall well-being?
+The study is guided by pivotal questions to explore the nexus between lifestyle choices and health perceptions:
 
-## Data Source
+- **Dietary Habits**: How do dietary habits, particularly the consumption of fruits and vegetables, relate to overall health outcomes and perceptions?
+- **Socioeconomic Status**: What influence does socioeconomic status, including racial and ethnic factors, have on healthcare accessibility and health outcomes?
+- **Physical Activity**: How does engagement in physical activities impact the likelihood of chronic disease occurrence and mental health conditions?
+- **Chronic Conditions**: Can a correlation be established between chronic conditions and self-assessed health status?
+- **Predictive Analysis**: Is it feasible to accurately predict perceived health using an integrative analysis of dietary, socioeconomic, lifestyle, and personal health metrics?
 
-To answer these research questions, this research project will utilize the 2021 SMART: BRFSS City and County Data and Documentation from the Centers for Disease Control and Prevention (CDC) website (Centers for Disease Control and Prevention, 2021).
+## Data Exploration
 
-The dataset comprises 152 variables, including answers to a questionnaire and output variables calculated from input variables. An essential aspect of the approach involves reducing the dataset's complexity based on variable importance and relevance to the research questions. This targeted reduction enables a more focused and practical analysis, aligning the variables under examination with the core objectives of the project.
+This analysis utilizes data from the **2019 and 2021 SMART: BRFSS City and County datasets** provided by the Centers for Disease Control and Prevention (CDC). The datasets include a comprehensive array of variables, which will be refined to concentrate on those most relevant to the research objectives.
 
-## Methodology
+## Analytical Approach
 
-The proposed methodology leverages themes such as predictive analysis techniques, focusing on classification. The models employed include Decision trees, Random Forests, K-nearest neighbors, and neural networks. Python and Tableau are the primary tools used for this research project. Python libraries, including TensorFlow, Seaborn, NumPy, Matplotlib, Scikit-learn, Pandas, and Data Profiling, are utilized for analysis.
+Our methodology employs predictive modeling techniques, including Decision Trees, Random Forests, K-nearest neighbors, and Neural Networks, to explore the datasets' shared features and their predictive capabilities. The analysis is performed using Python, with extensive use of libraries such as TensorFlow, Seaborn, NumPy, Matplotlib, Scikit-learn, and Pandas for data processing and analysis. Tableau is used for data visualization to illustrate the findings effectively.
 
-## Project Impact
+## Expected Outcomes
 
-This research project explores the intricate interplay between behavioral and socioeconomic factors and perceived health. The anticipated findings aim to inform and guide public health strategies, healthcare practices, and individual lifestyle modifications, ultimately advancing the well-being of diverse populations.
+This research aims to elucidate the intricate interplay between lifestyle, socioeconomic status, and perceived health. The findings are expected to inform public health strategies, healthcare practices, and individual lifestyle choices, contributing to the enhanced well-being of diverse populations.
 
-## References
+## Citations
 
-Centers for Disease Control and Prevention. (2021). 2021 SMART: BRFSS City and County Data and Documentation. Retrieved from [CDC SMART Data and Documentation](https://www.cdc.gov/brfss/smart/smart_2021.html)
+Centers for Disease Control and Prevention. (2019, 2021). **SMART: BRFSS City and County Data and Documentation**. Retrieved from [CDC SMART Data and Documentation](https://www.cdc.gov/brfss/smart/smart_data_page.html)
