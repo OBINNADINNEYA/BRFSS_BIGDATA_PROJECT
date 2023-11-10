@@ -1,13 +1,13 @@
 import warnings
 warnings.filterwarnings("ignore")
-
-
 # General imports
 import pandas as pd 
 import numpy as np
 import seaborn as sns 
+import matplotlib
 import matplotlib.pyplot as plt
 import statistics
+import scipy
 from scipy.stats import wilcoxon
 
 # Data splitting and model evaluation
@@ -34,6 +34,7 @@ from sklearn.metrics import (
 )
 
 # Model imports
+import sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
@@ -43,6 +44,7 @@ from sklearn.preprocessing import RobustScaler,LabelEncoder, OneHotEncoder
 
 
 # Imbalanced dataset handling
+import imblearn
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline as IMBPipeline
 
@@ -51,8 +53,20 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 
-#Function for getting x import
-def get_ximp_feat(x=30):
-    """function for getting the x number of importance features
-    """
-    return list(feature_importances_df['Feature'][:x])
+# Function to print version of libraries
+def print_library_versions():
+    print('The libraries used for this notebook are:')
+    print("Pandas version:", pd.__version__)
+    print("Numpy version:", np.__version__)
+    print("Seaborn version:", sns.__version__)
+    print("Matplotlib version:", matplotlib.__version__)
+    print("Scikitlearn version:", sklearn.__version__)
+    print("Imblearn version:", imblearn.__version__)
+    print("Scipy version:", scipy.__version__)
+
+print_library_versions()
+
+
+
+
+
