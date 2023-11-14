@@ -28,4 +28,4 @@ This research aims to elucidate the intricate interplay between lifestyle, socio
 
 ## Citations
 
-Centers for Disease Control and Prevention. (2019, 2021). **SMART: BRFSS City and County Data and Documentation**. Retrieved from [CDC SMART Data and Documentation](https://www.cdc.gov/brfss/smart/smart_data_page.html)
+Centers for Disease Control and Prevention. (2019, 2021). **SMART: BRFSS City and County Data and Documentation**. Retrieved from [CDC SMART Data and Documentation]([https://www.cdc.gov/brfss/smart/smart_data_page.html](https://www.cdc.gov/brfss/smart/Smart_data.htm)https://www.cdc.gov/brfss/smart/Smart_data.htm)
