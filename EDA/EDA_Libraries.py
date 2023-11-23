@@ -1,5 +1,7 @@
 import warnings
 warnings.filterwarnings("ignore")
+
+
 #General imports
 import us
 import pandas as pd 
@@ -13,6 +15,7 @@ from scipy.stats import chi2_contingency
 from scipy import stats
 import chart_studio.plotly as py
 import plotly
+import plotly.offline as pyo
 import plotly.graph_objs as go 
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
